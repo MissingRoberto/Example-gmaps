@@ -1,0 +1,83 @@
+body{
+	margin: 	0px;
+	padding: 0px;
+}
+
+#header{
+	font-size: 3em;
+	height: 10%;
+}
+
+#wrapper{
+	width: 100%;
+
+}
+.content {
+	padding: 0%;
+}
+
+
+#tabs ul{
+	height: 10%;
+}
+
+#video_tab{
+	padding: 0px;
+	margin:0px;
+}
+
+#video_wrapper{
+	width: 100%;
+	padding: 0px;
+}
+
+#video_box{
+ 	display: inline-block;
+	
+}
+
+#map_canvas {
+    height: 350px;
+    width: 100%;
+	
+}
+
+
+
+#forms{
+	width: 100%;
+	
+}
+
+
+form input{
+	display: block;
+	width: 90%;
+	height: 40px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button{
+	margin:5%;
+	width: 30%;
+	
+}
+
+#last_pos{
+	width: 100%;
+	
+	
+}
+#actual_pos{
+	width: 100%;
+	
+
+}
+
+video{
+	max-width: 100%;
+	height: auto;
+}
+

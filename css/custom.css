@@ -1,0 +1,151 @@
+body{
+	font: 62.5% "Trebuchet MS", sans-serif;
+	margin: 50px;
+	background-color: rgb(241, 241, 241);
+
+}
+
+.fakewindowcontain .ui-widget-overlay {
+	position: absolute;
+}
+
+
+#header{
+	font-size: 40px;
+	text-shadow: 4px 4px 4px #000000;
+    filter: dropshadow(color=#998999, offx=2, offy=2);
+    font-family:monospace;
+    color:white;
+
+}
+#wrapper{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+
+
+}
+.content {
+	font-family: 'Gabriela', serif;
+
+}
+
+#tabs{
+	-webkit-box-shadow: 2px 2px 8px 1px #000;
+	box-shadow: 2px 2px 8px 1px #000;
+}
+#tabs .content{
+	padding: 5%;
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	-webkit-box-shadow: rgba(255, 255, 255, 0.6) 0px -3px 1px 0px, rgba(255, 255, 255, 0.972549) 0px 2px 1px 0px inset, rgba(0, 0, 0, 0.701961) 0px 0px 3px -1px;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: -webkit-linear-gradient(top, rgb(249, 249, 249) 50%, rgb(240, 240, 240) 100%);
+	background-origin: padding-box;
+	background-size: auto;
+	border-bottom-color: rgb(255, 255, 255);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-left-color: rgb(255, 255, 255);
+	border-right-color: rgb(255, 255, 255);
+	border-top-color: rgb(255, 255, 255);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: rgba(255, 255, 255, 0.6) 0px -3px 1px 0px, rgba(255, 255, 255, 0.972549) 0px 2px 1px 0px inset, rgba(0, 0, 0, 0.701961) 0px 0px 3px -1px;
+	
+}
+
+#video_wrapper{
+	width: 100%;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+
+
+}
+
+#video_box{
+ 	display: inline-block;
+	
+
+}
+
+#map_canvas {
+    height: 400px;
+    width: 70%;
+    margin-right: auto;
+	margin-left: auto;
+	
+}
+
+#home-tab p{
+	text-align:justify;
+}
+
+
+#forms{
+	overflow:hidden;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+
+}
+
+
+
+.button{
+	margin:5%;
+	width: 60%;
+	
+}
+ 
+#last_pos{
+	width: 45%;
+	float:left;
+	margin-right: 2%;
+	text-align: center;
+}
+#actual_pos{
+	width: 45%;
+	float: right;
+	margin-left: 2%;
+	text-align: center;
+
+}
+
+.content p, .content h2 {
+	text-align: center;
+}
+
+#video_box video{
+		/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+}
+
